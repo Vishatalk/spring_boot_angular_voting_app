@@ -1,0 +1,9 @@
+<div class="con">
+
+<div *ngFor="let image of images; let i = index" (click)="handleImageClick(i)">
+  <img [src]="image.url"  alt="Image {{ i + 1 }} " width="90px">
+</div>
+<p>Party Name: {{ clickedImage }}</p>
+<p>Vote Count: {{ clickCount }}</p>
+
+</div>

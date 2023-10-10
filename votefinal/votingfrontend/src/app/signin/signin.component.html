@@ -1,0 +1,23 @@
+<div class="body">
+  <div class="container">
+<div class="form">
+          <div class="head">
+              <span>Sign up</span>
+              <p>Create a free account with your email.</p>
+          </div>
+          <div class="inputs">
+              <input type="text" placeholder="Full Name"[(ngModel)]="user.name" >
+              <input type="number" placeholder="Age" [(ngModel)]="user.age" >
+
+              <input type="email" placeholder="Email" [(ngModel)]="user.email" >
+              <input type="password" placeholder="Password" [(ngModel)]="user.password" >
+          </div>
+          <button (click)="createEmployee()">Sign up</button>
+        </div>
+      <div class="form-footer">
+          <p>Have an account? <button (click)="lo()"><a  >Log in</a></button></p>
+      </div>
+
+  </div>
+
+</div>

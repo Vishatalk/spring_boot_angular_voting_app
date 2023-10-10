@@ -1,0 +1,33 @@
+/* Styling for the entire table */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f0f0f0;
+}
+
+/* Styling for table headers */
+.header-cell {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styling for table rows */
+.table-row:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.table-row:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+/* Hover effect for table rows */
+.table-row:hover {
+  background-color: #ccc;
+}
+
+/* Styling for table cells */
+td {
+  padding: 10px;
+}

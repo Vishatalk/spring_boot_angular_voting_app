@@ -1,0 +1,18 @@
+<table class="custom-table">
+  <thead>
+    <tr>
+      <th class="header-cell">Name</th>
+      <th class="header-cell">Age</th>
+      <th class="header-cell">Email</th>
+      <th class="header-cell">Password</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees" class="table-row">
+      <td>{{ employee.name }}</td>
+      <td>{{ employee.age }}</td>
+      <td>{{ employee.email }}</td>
+      <td>{{ employee.password }}</td>
+    </tr>
+  </tbody>
+</table>

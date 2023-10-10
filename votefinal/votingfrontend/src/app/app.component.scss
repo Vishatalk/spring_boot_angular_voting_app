@@ -1,0 +1,73 @@
+nav
+{
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+  border: solid black ;
+  border-radius: 20px;
+  display: flex;
+}
+
+/* Style the <ul> element */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the <li> elements */
+li {
+  display: inline;
+  margin-right: 20px; /* Adjust the margin between menu items as needed */
+}
+
+/* Style the <a> elements (links) */
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  justify-content: space-between;
+}
+
+/* Style the <a> elements on hover */
+a:hover {
+  position: relative;
+}
+
+/* Create a pseudo-element (::before) for the underline */
+a::before, a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Expand the underline on hover */
+a:hover::before, a:hover::after {
+  width: 100%;
+}
+
+/* Adjust the spacing between the underline and the text */
+a::before {
+  margin-right: 5px; /* Increase or decrease as needed */
+}
+
+/* Remove the underline from the active link (routerLinkActive) */
+a.router-link-active::before,
+a.router-link-active::after {
+  width: 0%;
+}
+
+div{
+  background-image: url("https://www.shutterstock.com/shutterstock/photos/2116616324/display_1500/stock-vector-happy-national-voters-day-illustration-of-showing-voting-finger-with-electronic-voting-machine-2116616324.jpg");
+  // background-color: blue;
+  height: 640px;
+  background-position: center;
+  background-size: cover;
+}

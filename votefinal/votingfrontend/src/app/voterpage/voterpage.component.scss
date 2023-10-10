@@ -1,0 +1,29 @@
+/* Styling for the image container div */
+.image-container {
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin: 10px; /* Add some margin around each image container */
+  display: inline-block; /* Display images inline */
+}
+
+/* Styling for the images */
+.image {
+  border: 2px solid #ccc; /* Add a border to the images */
+  border-radius: 5px; /* Add rounded corners to the images */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Style the images when hovered */
+.image:hover {
+  border-color: #007bff; /* Change border color on hover */
+}
+.con{
+  position: relative;
+  margin-top: 80px;
+  margin-left: 100px;
+
+
+
+}
+p{
+  font-size: 20px;
+}
